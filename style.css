@@ -3,15 +3,17 @@
     --cinza-secundario:#c0c0c0;
     --botao-azul:#167bf7;
     --cor-de-fundo:#00030c;
+    --fonte-principal:'inter';
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-
+    family-fonts:var(--fonte-principal);
 }
 
-*{margin:0;
+*{
+    margin:0;
     padding:o;
 }
 .principal{
