@@ -9,7 +9,7 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
-    family-fonts:var(--fonte-principal);
+    font-family :var(--fonte-principal);
 }
 
 *{
@@ -18,4 +18,10 @@ body{
 }
 .principal{
     background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{ 
+    height:100vh;
+    display:grid;
 }
