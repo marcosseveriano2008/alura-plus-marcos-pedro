@@ -57,3 +57,18 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+
+}
+
+.contaner__caixa{
+    margin: 0 10em;
+}
+
+.botao__secundario{
+    justify-items: center;
+    align-items: center;
+
+}
