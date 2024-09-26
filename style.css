@@ -23,12 +23,14 @@ body {
     background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: 6em;
 }
 
 .container {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-left: 6em;
 }
 
 .container__botao {
@@ -44,7 +46,8 @@ body {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
     padding: 1em;
-    color: var(--branco-principal)
+    color: var(--branco-principal);
+    margin: 1em 0;
 }
 
 .container__aviso {
@@ -56,6 +59,7 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .container__imagem{
@@ -72,7 +76,13 @@ body {
     align-items: center;
 }
 
+.secundario{
+    align-items: center;
+    text-align: left;
+    margin: 0 6em;
+}
 .secundario__imagem{
+    
 
 }
 
