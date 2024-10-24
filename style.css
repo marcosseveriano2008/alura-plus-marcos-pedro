@@ -89,16 +89,16 @@ body {
 .descricao__titulo{
     font-weight: 700;
     font-size: 48px ;
-    color; var(--branco-principal)
+    color: var(--branco-principal);
     margin-bottom: 0,1em;
 }
 
 .descricao--texto{
-    color: var(--cinza-secundario)
+    color: var(--cinza-secundario);
 }
 
 .secundario--botao{
-    display;inline-block
+    display: inline-block;
     margin-top:1em;
 }
 
@@ -109,7 +109,7 @@ body {
 .dispositivo__lista{
     display: flex;
     justify-content: center;
-l   ist-style-type: none;
+    list-style-type: none;
     margin: 5em 0;
 }
 
